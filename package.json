@@ -1,6 +1,6 @@
 {
-  "name": "react-redux-firebase",
-  "version": "3.8.1",
+  "name": "@dimavedenyapin/react-redux-firebase",
+  "version": "3.8.2",
   "description": "Redux integration for Firebase. Comes with a Higher Order Components for use with React.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -40,10 +40,7 @@
   "bugs": {
     "url": "https://github.com/prescottprue/react-redux-firebase/issues"
   },
-  "author": {
-    "name": "Prescott Prue",
-    "url": "https://github.com/prescottprue"
-  },
+  "author": "Prescott Prue (https://github.com/prescottprue)",
   "keywords": [
     "firebase",
     "redux",
@@ -104,7 +101,7 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.8",
     "eslint-plugin-standard": "^4.0.1",
-    "firebase": "7.14.6",
+    "firebase": "7.24.0",
     "firebase-server": "^1.0.2",
     "gitbook-cli": "^2.3.2",
     "husky": "^4.2.3",
@@ -119,7 +116,7 @@
     "react-redux": "^6.0.0",
     "recompose": "^0.30.0",
     "redux": "4.0.0",
-    "redux-firestore": "0.5.7",
+    "@dimavedenyapin/redux-firestore": "0.14.1",
     "rimraf": "^3.0.0",
     "sinon": "^9.0.1",
     "sinon-chai": "^3.5.0",
@@ -147,5 +144,13 @@
     "*.{js,ts}": [
       "eslint --fix"
     ]
+  },
+  "bin": {
+    "react-redux-firebase": "api-docs-generate.js"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
   }
 }
